@@ -1,0 +1,64 @@
+.landing {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 90vh;
+  /* UI Properties */
+  background: #00ff00 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 0px 531px;
+  opacity: 1;
+}
+
+@font-face {
+  font-family: "Gilory Heavy"; /*Can be any text*/
+  src: local("GiloryHeavy"),
+    url("./assests/gilroy/Gilroy-Heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilory Bold"; /*Can be any text*/
+  src: local("GiloryBold"),
+    url("./assests/gilroy/Gilroy-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilory Medium"; /*Can be any text*/
+  src: local("GiloryMedium"),
+    url("./assests/gilroy/Gilroy-Medium.ttf") format("truetype");
+}
+
+.fontMedium {
+  font-family: "Gilory Medium";
+}
+
+.fontHeavy {
+  font-family: "Gilory Heavy";
+}
+
+.fontBold {
+  font-family: Gilory Bold;
+}
+
+.buttonBlack {
+  width: 219px;
+  height: 49px;
+  /* UI Properties */
+  background: #000000 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 20px #00000029;
+  border-radius: 33px;
+  opacity: 1;
+}
+
+.buttonWhite {
+  width: 219px;
+  height: 49px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 20px #00000029;
+  border-radius: 33px;
+  opacity: 1;
+}
+
+.text-green{
+  color: #00ff00;
+}
